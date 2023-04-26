@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>AFD REPRESENTAÇÕES</title>
+    <title>FJD REPRESENTAÇÕES</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,7 +12,7 @@
 </head>
 <header class="flex" onload="load()">
     <div class="container">
-        <div class="logo"><h1>AFD REPRESENTAÇÕES</h1></div>
+        <div class="logo"><h1>FJD REPRESENTAÇÕES</h1></div>
         <nav class="flex menu">
             <ul class="flex">
                 <li><a href="#">HOME</a></li>
@@ -22,7 +22,7 @@
         </nav>
     </div>
 </header>
-<body>
+<body onload="load_cards()">
     <div class="custom-shape-divider-bottom-1614119860">
     </div>
 
@@ -45,67 +45,11 @@
             </svg>
         </div>
         <h1 class="catalogos_title">REPRESENTADAS</h1>
-        <div class="container">
-            <div class="card">
+        <div class="container cards">
+            <!-- <div class="card" onclick="get_emp('empresa1')">
                 <img src="./img/pontodasfestas_logo.png" alt="img" class="img">
-                <ul>
-                    <li><a href="./pdf/linha descartaveis 26-02.pdf" target="_blank">Descartaveis</a></li>
-                    <li><a href="./pdf/linha decoracao 26-02.pdf" target="_blank">Decoração</a></li>
-                    <li><a href="./pdf/linha festa 26-02.pdf" target="_blank">Festas</a></li>
-                    <li><a href="./pdf/linha lembrancinha 26-02.pdf" target="_blank">Lembrancinhas</a></li>
-                    <li><a href="./pdf/pascoa 26-02.pdf" target="_blank">Temático</a></li>
-                </ul>
-            </div>
-            <div class="card">
-                <img src="./img/pontodasfestas_logo.png" alt="img" class="img">
-                <ul>
-                    <li><a href="./pdf/linha descartaveis 26-02.pdf" target="_blank">Descartaveis</a></li>
-                    <li><a href="./pdf/linha decoracao 26-02.pdf" target="_blank">Decoração</a></li>
-                    <li><a href="./pdf/linha festa 26-02.pdf" target="_blank">Festas</a></li>
-                    <li><a href="./pdf/linha lembrancinha 26-02.pdf" target="_blank">Lembrancinhas</a></li>
-                    <li><a href="./pdf/pascoa 26-02.pdf" target="_blank">Temático</a></li>
-                </ul>
-            </div>
-            <div class="card">
-                <img src="./img/pontodasfestas_logo.png" alt="img" class="img">
-                <ul>
-                    <li><a href="./pdf/linha descartaveis 26-02.pdf" target="_blank">Descartaveis</a></li>
-                    <li><a href="./pdf/linha decoracao 26-02.pdf" target="_blank">Decoração</a></li>
-                    <li><a href="./pdf/linha festa 26-02.pdf" target="_blank">Festas</a></li>
-                    <li><a href="./pdf/linha lembrancinha 26-02.pdf" target="_blank">Lembrancinhas</a></li>
-                    <li><a href="./pdf/pascoa 26-02.pdf" target="_blank">Temático</a></li>
-                </ul>
-            </div>
-            <div class="card">
-                <img src="./img/pontodasfestas_logo.png" alt="img" class="img">
-                <ul>
-                    <li><a href="./pdf/linha descartaveis 26-02.pdf" target="_blank">Descartaveis</a></li>
-                    <li><a href="./pdf/linha decoracao 26-02.pdf" target="_blank">Decoração</a></li>
-                    <li><a href="./pdf/linha festa 26-02.pdf" target="_blank">Festas</a></li>
-                    <li><a href="./pdf/linha lembrancinha 26-02.pdf" target="_blank">Lembrancinhas</a></li>
-                    <li><a href="./pdf/pascoa 26-02.pdf" target="_blank">Temático</a></li>
-                </ul>
-            </div>
-            <div class="card">
-                <img src="./img/pontodasfestas_logo.png" alt="img" class="img">
-                <ul>
-                    <li><a href="./pdf/linha descartaveis 26-02.pdf" target="_blank">Descartaveis</a></li>
-                    <li><a href="./pdf/linha decoracao 26-02.pdf" target="_blank">Decoração</a></li>
-                    <li><a href="./pdf/linha festa 26-02.pdf" target="_blank">Festas</a></li>
-                    <li><a href="./pdf/linha lembrancinha 26-02.pdf" target="_blank">Lembrancinhas</a></li>
-                    <li><a href="./pdf/pascoa 26-02.pdf" target="_blank">Temático</a></li>
-                </ul>
-            </div>
-            <div class="card">
-                <img src="./img/pontodasfestas_logo.png" alt="img" class="img">
-                <ul>
-                    <li><a href="./pdf/linha descartaveis 26-02.pdf" target="_blank">Descartaveis</a></li>
-                    <li><a href="./pdf/linha decoracao 26-02.pdf" target="_blank">Decoração</a></li>
-                    <li><a href="./pdf/linha festa 26-02.pdf" target="_blank">Festas</a></li>
-                    <li><a href="./pdf/linha lembrancinha 26-02.pdf" target="_blank">Lembrancinhas</a></li>
-                    <li><a href="./pdf/pascoa 26-02.pdf" target="_blank">Temático</a></li>
-                </ul>
-            </div>
+            </div> -->
+
         </div>
     </section>
 
@@ -167,6 +111,14 @@
             </form>
         </div>
     </section>
+
+    <div class="popup flex column align justify">
+        <img src="./img/close.png" alt="" class="close_pop" onclick="cclose()">
+        <ul class="popup_ul">
+            <!-- <li><a href="https://google.com/">Arquivo.PDF</a></li> -->
+        </ul>
+
+    </div>
 <script src="./scripts/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
@@ -176,7 +128,7 @@
 
 <div class="top_bar"></div>
 <footer>
-    <h1>AFD Representações - Todos os direitos reservados - 2021</h1>
+    <h1>FJD Representações - Todos os direitos reservados - 2021</h1>
     <h1>Site Feito por <a href="https://github.com/jvadebossan">jvadebossan</a></h1>
     <ul>
         <li><a href="https://github.com/jvadebossan"><img src="./img/001-github.svg" alt="github" class="svg_footer"></a></li>

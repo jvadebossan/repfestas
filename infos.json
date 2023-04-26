@@ -1,0 +1,41 @@
+{   
+    "empresas":["pontodasfestas", "duster", "tasil"],
+
+    
+    "pontodasfestas":{
+        "nome":"Ponto das Festas",
+        "logo":"./img/pontodasfestas_logo.png",
+        "arquivos":[
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 2","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 1","link":"https://"}
+        ]
+    },
+    "duster":{
+        "nome":"Duster",
+        "logo":"/img/duster_logo.png",
+        "arquivos":[
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 2","link":"https://"},
+            {"nome":"Arquivo 3","link":"https://"},
+            {"nome":"Arquivo 3","link":"https://"}
+        ]
+    },
+    "tasil":{
+        "nome":"Tasil",
+        "logo":"/img/tasil_Logo.png",
+        "arquivos":[
+            {"nome":"Arquivo 1","link":"https://"},
+            {"nome":"Arquivo 2","link":"https://"},
+            {"nome":"Arquivo 3","link":"https://"}
+        ]
+    }
+}
