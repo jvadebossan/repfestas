@@ -1,41 +1,70 @@
 {   
-    "empresas":["pontodasfestas", "duster", "tasil"],
+    "empresas":["pontodasfestas", "tasil", "oldaniplast", "festamaluca",
+    "festachic", "metasa", "ourodeminas", "granfrutalle"],
 
     
     "pontodasfestas":{
         "nome":"Ponto das Festas",
         "logo":"./img/pontodasfestas_logo.png",
         "arquivos":[
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 2","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 1","link":"https://"},
             {"nome":"Arquivo 1","link":"https://"}
-        ]
-    },
-    "duster":{
-        "nome":"Duster",
-        "logo":"/img/duster_logo.png",
-        "arquivos":[
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 2","link":"https://"},
-            {"nome":"Arquivo 3","link":"https://"},
-            {"nome":"Arquivo 3","link":"https://"}
         ]
     },
     "tasil":{
         "nome":"Tasil",
-        "logo":"/img/tasil_Logo.png",
+        "logo":"./img/tasil_logo.png",
         "arquivos":[
-            {"nome":"Arquivo 1","link":"https://"},
-            {"nome":"Arquivo 2","link":"https://"},
-            {"nome":"Arquivo 3","link":"https://"}
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
+        ]
+    },
+    "oldaniplast":{
+        "nome":"Oldaniplast",
+        "logo":"./img/oldaniplast_logo.png",
+        "arquivos":[
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
+        ]
+    },
+    "festamaluca":{
+        "nome":"Festa Maluca",
+        "logo":"./img/festamaluca_logo.png",
+        "arquivos":[
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
+        ]
+    },
+    "festachic":{
+        "nome":"Festa Chic",
+        "logo":"./img/festachic_logo.png",
+        "arquivos":[
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
+        ]
+    },
+    "metasa":{
+        "nome":"Metasa",
+        "logo":"./img/metasa_logo.png",
+        "arquivos":[
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
+        ]
+    },
+    "ourodeminas":{
+        "nome":"Ouro de Minas",
+        "logo":"./img/ourodeminas_logo.jpg",
+        "arquivos":[
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
+        ]
+    },
+    "granfrutalle":{
+        "nome":"Granfrutalle",
+        "logo":"./img/granfrutalle_logo.png",
+        "arquivos":[
+            {"nome":"Catalogo","link":"https://"},
+            {"nome":"Pedido","link":"https://"}
         ]
     }
+
 }

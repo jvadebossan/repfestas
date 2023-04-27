@@ -45,6 +45,7 @@ function load_cards(){
             card.appendChild(img)
 
             cards_box.appendChild(card)
+            console.log('loaded: ' + element)
         });
 
     })
