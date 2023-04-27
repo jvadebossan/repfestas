@@ -3,11 +3,11 @@
 	margin: 0;
 	box-sizing: border-box;
 	--tamanho: auto;
-	--main: #22b3f7;
-	--escura: #0385c1;
-	--claro: #69d0ff;
-	--opacity:rgb(179, 227, 255);
-	--shadow: #005379cd;
+	--main: #e3671a;
+	--escura: #c65108;
+	--claro: #f29156;
+	--opacity:rgb(255, 211, 179);
+	--shadow: #793200cd;
 }
 
 *::selection{
@@ -42,6 +42,9 @@ body{
 
 header{
 	justify-content: space-between;
+	background-color: var(--main);
+	width: 100%;
+	padding: 0px 40px;
 }
 
 .logo{
@@ -83,6 +86,47 @@ header nav ul li:hover{
 	background-color: var(--main);
 }
 
+
+/*CAROUSEL*/
+.carousel_bg{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+.carousel_banners{
+    width: 100%;
+    height: 100%;
+	filter: opacity(30%);
+}
+.carousel_banners img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner_content{
+	padding: 0px 40px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	font-family: 'Poppins', cursive;
+	color: white;
+	user-select: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner_content h1{
+	font-size: 3.5rem;
+}
+
+.banner_content h2{
+	font-size: 2.5rem;
+}
+
+
+
 .box_title{
 	padding-right: 100px;
 }
@@ -119,7 +163,7 @@ header nav ul li:hover{
 
 .custom-shape-divider-bottom-1614860042 {
     position: absolute;
-    top: 90.6vh;
+    top: 87vh;
     left: 0;
     width: 100%;
     overflow: hidden;
