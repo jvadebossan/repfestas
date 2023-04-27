@@ -34,56 +34,56 @@
         "nome":"Tasil",
         "logo":"./img/tasil_logo.png",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálo de Produtos","link":"https://drive.google.com/file/d/1YDvD2w86YNn0HkxZ_8AbhmaAihDAhEGI/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://docs.google.com/spreadsheets/d/1WddJv5gvFOqfHssUp7dTiLIf5lO2PsW0/edit?usp=share_link&ouid=104056410918061452962&rtpof=true&sd=true"}
         ]
     },
     "oldaniplast":{
         "nome":"Oldaniplast",
         "logo":"./img/oldaniplast_logo.png",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálogo de Produtos","link":"https://drive.google.com/file/d/1U6cHbAFPdUelcJYSuFSHdqn1xYqwtfwx/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://docs.google.com/spreadsheets/d/1dBbbEyT4hwwGGrrI23c_DEg5Hu8tMgET/edit?usp=share_link&ouid=104056410918061452962&rtpof=true&sd=true"}
         ]
     },
     "festamaluca":{
         "nome":"Festa Maluca",
         "logo":"./img/festamaluca_logo.png",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálogo de Produtos","link":"https://drive.google.com/file/d/1NWTrJ09LbIl2_pjKEA2Mmi01mYekIRy2/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://docs.google.com/spreadsheets/d/1YSl-YHmrZtZEabB_PEBEucjULPP_a2N8/edit?usp=share_link&ouid=104056410918061452962&rtpof=true&sd=true"}
         ]
     },
     "festachic":{
         "nome":"Festa Chic",
         "logo":"./img/festachic_logo.png",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálogo de Produtos","link":"https://drive.google.com/file/d/10Evi0mUDONT_-Qu_pgGLRcIhsqt3Op9-/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://docs.google.com/spreadsheets/d/1KjHAVdX0Tk-5vYJJQpVFm_0bM-om6SnT/edit?usp=share_link&ouid=104056410918061452962&rtpof=true&sd=true"}
         ]
     },
     "metasa":{
         "nome":"Metasa",
         "logo":"./img/metasa_logo.png",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálogo de Produtos","link":"https://drive.google.com/file/d/1aBrYhWv0_CcHoAReAO4x4jWD2zv_71qn/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://drive.google.com/file/d/1IbPlhSUh1No63gpb5rkEwkc4UpF8SIk-/view?usp=share_link"}
         ]
     },
     "ourodeminas":{
         "nome":"Ouro de Minas",
         "logo":"./img/ourodeminas_logo.jpg",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálogo de Produtos","link":"https://drive.google.com/file/d/1y3nlHnxrxVLClbEe-bM6OAIRlqi_VGkR/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://docs.google.com/spreadsheets/d/19ee7TdggKyYFGUVkDSpIUQ7k_0LdWqSx/edit?usp=share_link&ouid=104056410918061452962&rtpof=true&sd=true"}
         ]
     },
     "granfrutalle":{
         "nome":"Granfrutalle",
         "logo":"./img/granfrutalle_logo.png",
         "arquivos":[
-            {"nome":"Catalogo","link":""},
-            {"nome":"Pedido","link":""}
+            {"nome":"Catálogo de Produtos","link":"https://drive.google.com/file/d/1LiVE762dwuCJ4sSYtDTpIH83qODfB3k-/view?usp=share_link"},
+            {"nome":"Talão de Pedidos","link":"https://docs.google.com/spreadsheets/d/1GPGutigeGJABaZxjEU7EkP_i7ei4APLT/edit?usp=share_link&ouid=104056410918061452962&rtpof=true&sd=true"}
         ]
     }
 
