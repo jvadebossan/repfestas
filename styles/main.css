@@ -229,13 +229,13 @@ header nav ul li:hover{
 .popup{
 	display: none;
 	width: 70%;
-	height: 70%;
+	height: 80%;
 	background-color: var(--popup);
 	border-radius: 12px;
 	box-shadow: rgba(0, 0, 0, 0.547) 0px 0px 100px;
 	position: fixed;
 	z-index: 100;
-	top: 15%;
+	top: 10%;
 	left: 15%;
 }
 
