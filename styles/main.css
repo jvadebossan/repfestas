@@ -228,7 +228,7 @@ header nav ul li:hover{
 
 .popup{
 	display: none;
-	width: 50%;
+	width: 70%;
 	height: 50%;
 	background-color: var(--popup);
 	border-radius: 12px;
