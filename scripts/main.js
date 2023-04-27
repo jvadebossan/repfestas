@@ -37,7 +37,8 @@ function get_emp(emp){
             
             let a = document.createElement('a')
             a.innerText = file['nome']
-            a.setAttribute('src', file['link'])
+            a.setAttribute('href', file['link'])
+            a.setAttribute('target', '_blank')
             li.appendChild(a)
         }) 
     })
