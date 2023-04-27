@@ -2,6 +2,15 @@
     "empresas":["pontodasfestas", "tasil", "oldaniplast", "festamaluca",
     "festachic", "metasa", "ourodeminas", "granfrutalle"],
 
+    "banners":[
+        "https://media.discordapp.net/attachments/981653692514193408/1100947939356049508/Sem_Titulo-1.png?width=1440&height=636",
+        "https://media.discordapp.net/attachments/981653692514193408/1100947938924052580/Sem_Titulo-2.png?width=1440&height=636",
+        "https://media.discordapp.net/attachments/981653692514193408/1100947938508800020/Sem_Titulo-3.png?width=1440&height=636",
+        "https://media.discordapp.net/attachments/981653692514193408/1100986683207454800/Sem_Titulo-4.png?width=1440&height=636",
+        "https://media.discordapp.net/attachments/981653692514193408/1100986683522031616/Sem_Titulo-5.png?width=1440&height=636",
+        "https://media.discordapp.net/attachments/981653692514193408/1100986682884489337/Sem_Titulo-6.png?width=1440&height=636"
+    
+    ],
     
     "pontodasfestas":{
         "nome":"Ponto das Festas",
