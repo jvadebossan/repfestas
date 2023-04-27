@@ -8,6 +8,7 @@
 	--claro: #f29156;
 	--opacity:rgb(255, 211, 179);
 	--shadow: #793200cd;
+	--popup: #331400;
 }
 
 *::selection{
@@ -92,14 +93,17 @@ header nav ul li:hover{
 	width: 100%;
 	height: 100%;
 	background-color: #000;
+	min-height: 300px;
 }
 
 .carousel_banners{
     width: 100%;
     height: 100%;
+	min-height: 300px;
 	filter: opacity(30%);
 }
 .carousel_banners img{
+	min-height: 300px;
     width: 100%;
     height: 100%;
 }
@@ -171,17 +175,6 @@ header nav ul li:hover{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1614860042 svg {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 73px;
-}
-
-.custom-shape-divider-bottom-1614860042 .shape-fill {
-    fill: var(--main);
-}
-
 
 .catalogos{
 	width: 100%;
@@ -191,7 +184,7 @@ header nav ul li:hover{
 }
 
 .catalogos_title{
-	margin-top: 50px;
+	margin-top: 100px;
 	color: white;
 	text-align: center;
 	font-family: 'Poppins', cursive;
@@ -203,7 +196,8 @@ header nav ul li:hover{
 }
 
 .catalogos .container{
-	margin: 150px 0;
+	margin: 50px 0;
+	margin-bottom: 100px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -215,11 +209,11 @@ header nav ul li:hover{
 	height: 250px;
 	margin: 40px 50px;
     transition: .5s;
+	background-color: white;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.256);
 }
 
 .card:hover{
-	background-color: var(--escura);
 	transform: scale(1.05);
 	cursor: pointer;
 }
@@ -236,7 +230,7 @@ header nav ul li:hover{
 	display: none;
 	width: 50%;
 	height: 50%;
-	background-color: var(--escura);
+	background-color: var(--popup);
 	border-radius: 12px;
 	box-shadow: rgba(0, 0, 0, 0.547) 0px 0px 100px;
 	position: fixed;
@@ -403,6 +397,10 @@ header nav ul li:hover{
 	height: 80vh;
 	justify-content: center;
 	align-items: center;
+}
+
+.title_form{
+	margin-top: 100px;
 }
 
 .form_contato .container{
@@ -758,6 +756,15 @@ footer ul li{
 }
 
 @media screen and (min-width:300px) and (max-width:780px){
+
+	.popup{
+		width: 90%;
+		min-height: 70%;
+		height: auto;
+		top: 10%;
+		left: 5%;
+	}
+
 	.menu{
 		display: none;
 	}
@@ -769,6 +776,20 @@ footer ul li{
 		height: 90vh;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.banner_content{
+		justify-content: flex-start;
+		padding-top: 33%;
+	}
+
+	.banner_content h1{
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+	}
+	.banner_content h2{
+		margin-top: 10px;
+		font-size: 1.5rem;
 	}
 
 	.box_title{
@@ -869,7 +890,7 @@ footer ul li{
 	}
 
 	.title_form{
-		margin-top: 450px;
+		margin-top: 0px;
 		font-size: 160%;
 		width: 90%;
 	}
