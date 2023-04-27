@@ -1,3 +1,24 @@
+fetch('../infos.json')
+.then((response) => response.json())
+.then((json) => {
+    let banners = json['banners']
+    banners.forEach((element, index) => {
+        let banner_img = document.createElement('img')
+        banner_img.setAttribute('class', 'banner_img')
+        banner_img.src = element
+        let carousel = document.getElementsByClassName('carousel_banners')[0]
+        carousel.appendChild(banner_img)
+        console.log('add img')
+    })
+    $('.single-item').slick({
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        loop: true
+    })
+    
+})
+
 function get_emp(emp){
     fetch('../infos.json')
     .then((response) => response.json())
@@ -46,6 +67,5 @@ function load_cards(){
 
             cards_box.appendChild(card)
         });
-
     })
 }
