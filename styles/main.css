@@ -492,6 +492,14 @@ footer ul li{
 }
 
 
+.wpp_icon{
+	width: 60px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+
 @media screen and (min-width:2289px) and (max-width:2700px){
 	.title{
 		font-size: 500%;
@@ -756,6 +764,11 @@ footer ul li{
 }
 
 @media screen and (min-width:300px) and (max-width:780px){
+
+	.carousel_bg{
+		background-color: red;
+		height: 50vh;
+	}
 
 	.popup{
 		width: 90%;
