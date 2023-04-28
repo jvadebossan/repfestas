@@ -765,11 +765,6 @@ footer ul li{
 }
 
 @media screen and (min-width:300px) and (max-width:780px){
-
-	.carousel_bg{
-		height: 40vh;
-	}
-
 	.banner_content{
 		height: 30vh;
 	}
