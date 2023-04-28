@@ -770,6 +770,10 @@ footer ul li{
 		height: 40vh;
 	}
 
+	.banner_content{
+		height: 30vh;
+	}
+
 	.popup{
 		width: 90%;
 		min-height: 70%;
