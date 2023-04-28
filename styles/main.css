@@ -25,6 +25,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow-x: hidden;
 }
 
 .container{
@@ -766,8 +767,7 @@ footer ul li{
 @media screen and (min-width:300px) and (max-width:780px){
 
 	.carousel_bg{
-		background-color: red;
-		height: 50vh;
+		height: 40vh;
 	}
 
 	.popup{
