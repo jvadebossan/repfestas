@@ -7,17 +7,13 @@ bar2 = document.getElementsByClassName('menu_bar')[1]
 bar3 = document.getElementsByClassName('menu_bar')[2]
 
 menu_button.addEventListener('click', () => {
-    menu.classList.toggle('active')
-    menu_button.classList.toggle('rotate')
-    bar2.classList.toggle('some')
+    menu.style.display = 'flex'
 })
 
 menu_close.addEventListener('click', () =>{
-    menu.classList.toggle('active')
-    menu_button.classList.toggle('rotate')
+    menu.style.display = 'none'
 })
 
 menu.addEventListener('click', () => {
-    menu.classList.remove('active')
-    menu.classList.remove('rotate')
+    menu.style.display = 'none'
 })
