@@ -6,6 +6,7 @@
     <title>FJD REPRESENTAÇÕES</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/menu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="./scripts/slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./scripts/slick-1.8.1/slick/slick-theme.css"/>
@@ -15,11 +16,24 @@
 <header class="flex" onload="load()">
     <div class="container">
         <div class="logo"><h1>FJD REPRESENTAÇÕES</h1></div>
+        <div class="menu_icon">
+            <div class="menu_bar"></div>
+            <div class="menu_bar"></div>
+            <div class="menu_bar"></div>
+        </div>
         <nav class="flex menu">
             <ul class="flex">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#representadas_loc">REPESENTADAS</a></li>
                 <li><a href="#contato_loc">CONTATO</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile">
+            <img src="./img/close.png" alt="" class="menu_close">
+            <ul>
+                <li><a href="#">HOME</a><div class="bar"></div></li>
+                <li><a href="#representadas_loc">REPESENTADAS</a><div class="bar"></div></li>
+                <li><a href="#contato_loc">CONTATO</a><div class="bar"></div></li>
             </ul>
         </nav>
     </div>
@@ -118,6 +132,7 @@
         <img src="https://aacelpe.com.br/wp-content/uploads/2016/08/whatsapp-logo-png-hd-2.png" alt="" class="wpp_icon">
     </a>
 <script src="./scripts/main.js"></script>
+<script src="./scripts/menu.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="./scripts/slick-1.8.1/slick/slick.min.js"></script>
