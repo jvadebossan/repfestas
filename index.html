@@ -6,6 +6,7 @@
     <title>FJD REPRESENTAÇÕES</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/menu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="./scripts/slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./scripts/slick-1.8.1/slick/slick-theme.css"/>
@@ -15,11 +16,24 @@
 <header class="flex" onload="load()">
     <div class="container">
         <div class="logo"><h1>FJD REPRESENTAÇÕES</h1></div>
+        <div class="menu_icon">
+            <div class="menu_bar"></div>
+            <div class="menu_bar"></div>
+            <div class="menu_bar"></div>
+        </div>
         <nav class="flex menu">
             <ul class="flex">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#representadas_loc">REPESENTADAS</a></li>
                 <li><a href="#contato_loc">CONTATO</a></li>
+            </ul>
+        </nav>
+        <nav class="menu_mobile">
+            <img src="./img/close.png" alt="" class="menu_close">
+            <ul>
+                <li><a href="#">HOME</a><div class="bar"></div></li>
+                <li><a href="#representadas_loc">REPESENTADAS</a><div class="bar"></div></li>
+                <li><a href="#contato_loc">CONTATO</a><div class="bar"></div></li>
             </ul>
         </nav>
     </div>
@@ -43,7 +57,7 @@
         </div>
     </section>
 
-    <section class="contato" id="contato_loc">
+    <section class="contato">
         <div class="custom-shape-divider-top-1614562710">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
@@ -72,7 +86,7 @@
         <h2>Artigos de festa e Doces</h2>
     </div>
 
-    <section class="form_contato flex" style="margin-bottom:300px;">
+    <section class="form_contato flex" style="margin-bottom:300px;" id="contato_loc">
         <div class="container column">
             <h1 class="title_regiao title_form" style="margin-bottom:80px;width: 80%;" data-aos="zoom-in-down">Ainda tem alguma dúvida?</h1>
             <form name="contato-site-repfestas" data-netlify="true" action="enviado.html">
@@ -113,7 +127,12 @@
         </ul>
 
     </div>
+
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=5527997652662">
+        <img src="https://aacelpe.com.br/wp-content/uploads/2016/08/whatsapp-logo-png-hd-2.png" alt="" class="wpp_icon">
+    </a>
 <script src="./scripts/main.js"></script>
+<script src="./scripts/menu.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="./scripts/slick-1.8.1/slick/slick.min.js"></script>
