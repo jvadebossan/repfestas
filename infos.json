@@ -16,18 +16,16 @@
         "nome":"Ponto das Festas",
         "logo":"./img/pontodasfestas_logo.png",
         "arquivos":[
-            {"nome":"Catálogo Balões","link":"https://drive.google.com/file/d/1I6WcEpLk89X2lI3ntWhj5p6FMgVMT_M3/view?usp=share_link"},
-            {"nome":"Catálogo Decorações","link":"https://drive.google.com/file/d/1cEtLwuiUQeMW9m6jiLugNQFi7DYPAHb2/view?usp=share_link"},
-            {"nome":"Catálogo Descartaveis","link":"https://drive.google.com/file/d/1TOD4nTlMahInMwWUDm3HxgpxwGjVK1FN/view?usp=share_link"},
+            {"nome":"Catálogo Balões","link":"https://drive.google.com/file/d/1yNeSw2S4nF2FydVWENfsXfgJi_aD_rDf/view"},
+            {"nome":"Catálogo Decorações","link":"https://drive.google.com/file/d/1vOi1NR1sHcnHGTs09CctGrfSPnaEjE_4/view"},
+            {"nome":"Catálogo Descartaveis","link":"https://drive.google.com/file/d/1G8m8i0TUdX5KyXCs4pyed_Xoeq7rvrN1/view"},
             {"nome":"Catálogo Embalagens","link":"https://drive.google.com/file/d/1So9tnW5M3ht7vUT4UVCZyIbmkjzA-6_B/view?usp=share_link"},
             {"nome":"Catálogo Festa Junina","link":"https://drive.google.com/file/d/1q-HGO198p_aqAgAe9s6ss_GWJJAN4fIV/view?usp=share_link"},
-            {"nome":"Catálogo Festa","link":"https://drive.google.com/file/d/1oBM5V5iahiBqcRigj_hCii705CdZAaiz/view?usp=share_link"},
-            {"nome":"Catálogo Helloween","link":"https://drive.google.com/file/d/1J5mV5JuaIKk9LrLI55Px5NnkGw9LRCDP/view?usp=share_link"},
-            {"nome":"Catálogo Lembrancinhas","link":"https://drive.google.com/file/d/1aBM8htQncHGcakUXwcsGUzbNcB9GAddG/view?usp=share_link"},
-            {"nome":"Catálogo Luminárias","link":"https://drive.google.com/file/d/1PF9fJXAl6fif2ghw12TRUkXWkPX60jns/view?usp=share_link"},
-            {"nome":"Catálogo Namorados","link":"https://drive.google.com/file/d/1W8cK_CYJ4BGveCGfUGGVoRgrSe8Q-nJ0/view?usp=share_link"},
-            {"nome":"Catálogo Natal","link":"https://drive.google.com/file/d/1R4MP_bW-yXXwKN--mTNyFY5As6aI_Udc/view?usp=share_link"},
-            {"nome":"Catálogo Temático","link":"https://drive.google.com/file/d/1DeEO3WKx8iI68mHn8CSVnda1XAsW9MvD/view?usp=share_link"}
+            {"nome":"Catálogo Festa","link":"https://drive.google.com/file/d/10x46toxEQanZdsJETMm_zu-SvXhx0vbk/view"},
+            {"nome":"Catálogo Helloween","link":"https://drive.google.com/file/d/1rSkLFkrrZ1agVSjn1Df94aobIvrpDAWg/view"},
+            {"nome":"Catálogo Lembrancinhas","link":"https://drive.google.com/file/d/1fDjZXn612T7GOoR-85jseiw1nKvK_6Mj/view"},
+            {"nome":"Catálogo Natal","link":"https://drive.google.com/file/d/19Mju1JqEkpbInKWQYI6xB0wwnIS-YKDF/view"},
+            {"nome":"Catálogo Temático","link":"https://drive.google.com/file/d/1yJpasaAdBevrhXz9c0HFSaSyXc6XUpX2/view"}
         ]
     },
     "tasil":{
